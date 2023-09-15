@@ -8,8 +8,6 @@ if __name__ == '__main__':
     ok = False
     key, value = "", []
     while s.strip() != "-1":
-        print(s)
-        print("_")
         if 'table:' in s:
             ok = True
             s = input().rstrip()
