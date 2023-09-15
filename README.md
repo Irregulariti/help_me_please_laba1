@@ -1,3 +1,4 @@
+![Image alt](https://github.com/Irregulariti/help_me_please_laba1/raw/master/forreadme/first.jpg)
 Машину тьюринга писать на сайте: https://turingmachine.io/
 
 Правила написания:
