@@ -30,9 +30,9 @@ https://www.onlinegdb.com/online_python_interpreter
 
 ![Image alt](https://github.com/Irregulariti/help_me_please_laba1/raw/master/forreadme/second.jpg)
 
-пусть ai - состояние машины, sj - операция в данном состоянии
+пусть i - состояние машины, si - количество операций в данном состоянии
 
-тогда num = sum(ai*sj)
+тогда num = sum(si) по всем i
 
 Выводные данные:
 
