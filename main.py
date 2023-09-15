@@ -7,7 +7,7 @@ if __name__ == '__main__':
     s = input().rstrip()
     ok = False
     key, value = "", []
-    while s.strip() != "-1":
+    while '-1' not in s.strip():
         if 'table:' in s:
             ok = True
             s = input().rstrip()
@@ -28,6 +28,7 @@ if __name__ == '__main__':
     if key.strip() not in dict:
         dict[key.strip()] = value
     ok = False
+    end_state = list(dict.keys())[-1]
     temp = []
     for key in dict.keys():
         if key == 'start state':
@@ -114,7 +115,10 @@ if __name__ == '__main__':
                                 text += ". "
                             else:
                                 text += ", "
-                                text += "машина переходит в состояние " + next_state + ". "
+                                if next_state != end_state:
+                                    text += "машина переходит в состояние " + next_state + ". "
+                                else:
+                                    text += "машина переходит в конечное состояние " + next_state + ". "
                         temp = [ans]
                     final_text += text
                     final_text += "\n"
