@@ -127,4 +127,34 @@ if __name__ == '__main__':
                         temp = [ans]
                     final_text += text
                     final_text += "\n"
+    if "Машина находится в состоянии " + key not in final_text:
+        start_state = temp[0][0]
+        text += "Машина находится в состоянии " + start_state + ". "
+        for i in range(len(temp)):
+            k = temp[i]
+            cur_symbol = k[1].strip()
+            write_symbol = k[2].strip()
+            direction = k[3].strip()
+            next_state = k[4].strip()
+            it = random.randint(0, 2)
+            rand_state = const[it]
+            text += rand_state + cur_symbol + ", "
+            if cur_symbol == write_symbol:
+                text += "на ленте печатается тот же символ, "
+            else:
+                text += "на ленте печатается символ " + write_symbol + ", "
+            text += "головка машины сдвигается "
+            if direction == "R":
+                text += "вправо"
+            else:
+                text += "влево"
+            if next_state == start_state:
+                text += ". "
+            else:
+                text += ", "
+                if next_state != end_state:
+                    text += "машина переходит в состояние " + next_state + ". "
+                else:
+                    text += "машина переходит в конечное состояние " + next_state + ". "
+        final_text += text
     print(final_text)
