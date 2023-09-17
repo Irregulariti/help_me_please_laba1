@@ -15,8 +15,6 @@
 4. **start state**: стартовое состояние машины - это то состояние, в котором указатель смотрит на первую цифру в числе
 5. **table**: заголовок после которого начинается описание состояний машины тьюринга.
 
-## ***Теперь про написание состояний***
-
 # Пример:
 
 ![Image alt](https://github.com/Irregulariti/help_me_please_laba1/raw/master/forreadme/example.png)  
@@ -52,7 +50,7 @@
   "**[0,' ']: {write: 1, L: done}**"
 
 
-# Правила написания:
+## Правила написания:
 input, blank, start_state - в разных строках
 
 # Ниже интерпретатор пайтона
@@ -71,6 +69,7 @@ https://www.onlinegdb.com/online_python_interpreter
 
 "5: Enjoy"  
 
+# Откройте окно, сейчас будет душно
 ![Image alt](https://github.com/Irregulariti/help_me_please_laba1/raw/master/forreadme/second.jpg)
 
 пусть i - состояние машины, si - количество операций в данном состоянии
@@ -87,4 +86,4 @@ https://www.onlinegdb.com/online_python_interpreter
   
 
 Хорошей первой лабы!
-©Irregulariti
+©Irregulariti <3
