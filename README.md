@@ -16,23 +16,7 @@
 5. **table**: заголовок после которого начинается описание состояний машины тьюринга.
 
 # Пример:
-\'''
-input: '1011'
-blank: ' '
-start state: right
-table:
-  # scan to the rightmost digit
-  right:
-    1: R
-    0: R
-    ' ': {L: carry}
-  # then carry the 1
-  carry:
-    1: {write: 0, L}
-    0: {write: 1, L: done}
-    ' ': {write: 1, L: done}
-  done:
-\'''
+![Image alt](https://github.com/Irregulariti/help_me_please_laba1/raw/master/forreadme/example.png)  
 # Алгоритм 
 
 1. Сначала вы даёте название своему состоянию: в примере - *right*, *carry* и *done*.
