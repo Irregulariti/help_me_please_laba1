@@ -1,4 +1,11 @@
+![Image alt](https://github.com/Irregulariti/help_me_please_laba1/raw/master/forreadme/first.jpg)  
+
+
+
+А теперь к делу:  
+
 Машину тьюринга писать на сайте: https://turingmachine.io/
+
 
 Правила написания:
 input, blank, start_state - в разных строках
@@ -17,15 +24,15 @@ https://www.onlinegdb.com/online_python_interpreter
 
 "3: Снизу выбрать формат входных данных TEXT и вставить туда код машины"  
 
-"4: Не забудьте дописать -1 в конце скрипта, а иначе попадёте в беск цикл"  
+"4: Не забудьте дописать:  "-1" в конце скрипта, а иначе попадёте в беск цикл"  
 
 "5: Enjoy"  
 
 ![Image alt](https://github.com/Irregulariti/help_me_please_laba1/raw/master/forreadme/second.jpg)
 
-пусть ai - состояние машины, sj - операция в данном состоянии
+пусть i - состояние машины, si - количество операций в данном состоянии
 
-тогда num = sum(ai*sj)
+тогда num = sum(si) по всем i
 
 Выводные данные:
 
@@ -37,3 +44,4 @@ https://www.onlinegdb.com/online_python_interpreter
   
 
 Хорошей первой лабы!
+©Irregulariti
