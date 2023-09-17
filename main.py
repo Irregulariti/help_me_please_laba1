@@ -10,7 +10,7 @@ if __name__ == '__main__':
     key, value = "", []
     while '-1' not in s.strip():
         if "#" in s.strip():
-            s = s[s.find("#")+1:]
+            s = s[s.find("#") + 1:]
         if 'table:' in s:
             ok = True
             s = input().rstrip()
@@ -28,7 +28,6 @@ if __name__ == '__main__':
             key, value = s.split(": ")
             dict[key] = value
         s = input().rstrip()
-
 
     if key.strip() not in dict:
         dict[key.strip()] = value
@@ -126,7 +125,7 @@ if __name__ == '__main__':
                                     text += "машина переходит в конечное состояние " + next_state + ". "
                         temp = [ans]
                     final_text += text
-                    final_text += "\n"
+                    if text != "": final_text += '\n'
     if "Машина находится в состоянии " + key not in final_text:
         start_state = temp[0][0]
         text += "Машина находится в состоянии " + start_state + ". "
