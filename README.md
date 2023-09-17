@@ -1,7 +1,10 @@
 ![Image alt](https://github.com/Irregulariti/help_me_please_laba1/raw/master/forreadme/first.jpg)  
 
+#### P.S. авторитетное мнение
+![Image alt](https://github.com/Irregulariti/help_me_please_laba1/raw/master/forreadme/vsem_pohuy.png)
 
-
+*но если честно*
+![Image alt](https://github.com/Irregulariti/help_me_please_laba1/raw/master/forreadme/absolute.jpg)
 # А теперь к делу: 
 
 Машину тьюринга писать на сайте: https://turingmachine.io/
