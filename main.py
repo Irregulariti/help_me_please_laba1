@@ -1,13 +1,16 @@
 import random
 
 if __name__ == '__main__':
-    const = ["Если головка машины указывает на символ ", "При условии что под головкой машины находится символ ", "В том случае, когда под головкой символ "]
+    const = ["Если головка машины указывает на символ ", "При условии что под головкой машины находится символ ",
+             "В том случае, когда под головкой символ "]
     final_text = ""
     dict = {}
     s = input().rstrip()
     ok = False
     key, value = "", []
     while '-1' not in s.strip():
+        if "#" in s.strip():
+            s = s[s.find("#")+1:]
         if 'table:' in s:
             ok = True
             s = input().rstrip()
@@ -25,6 +28,8 @@ if __name__ == '__main__':
             key, value = s.split(": ")
             dict[key] = value
         s = input().rstrip()
+
+
     if key.strip() not in dict:
         dict[key.strip()] = value
     ok = False
@@ -99,7 +104,7 @@ if __name__ == '__main__':
                             write_symbol = k[2].strip()
                             direction = k[3].strip()
                             next_state = k[4].strip()
-                            it = random.randint(0,2)
+                            it = random.randint(0, 2)
                             rand_state = const[it]
                             text += rand_state + cur_symbol + ", "
                             if cur_symbol == write_symbol:
