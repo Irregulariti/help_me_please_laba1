@@ -4,7 +4,7 @@
 ![Image alt](https://github.com/Irregulariti/help_me_please_laba1/raw/master/forreadme/vsem_pohuy.png)
 
 *но если честно*
-![Image alt](https://github.com/Irregulariti/help_me_please_laba1/raw/master/forreadme/absolute.jpg)
+![Image alt](https://github.com/Irregulariti/help_me_please_laba1/raw/master/forreadme/absolute.png)
 # А теперь к делу: 
 
 Машину тьюринга писать на сайте: https://turingmachine.io/
