@@ -34,8 +34,10 @@ if __name__ == '__main__':
     ok = False
     end_state = list(dict.keys())[-1]
     temp = []
+    st_st = ""
     for key in dict.keys():
         if key == 'start state':
+            st_st = dict[key]
             ok = True
             continue
         if ok:
@@ -96,7 +98,11 @@ if __name__ == '__main__':
                         temp.append(ans)
                     else:
                         start_state = temp[0][0]
-                        text += "Машина находится в состоянии " + start_state + ". "
+                        if start_state.strip() == st_st.strip() and final_text == "":
+                            text += "Машина находится в начальном состоянии " + start_state + ". "
+                        else:
+                            text += "Машина находится в состоянии " + start_state + ". "
+                        print(st_st)
                         for i in range(len(temp)):
                             k = temp[i]
                             cur_symbol = k[1].strip()
