@@ -1,10 +1,5 @@
 ![Image alt](https://github.com/Irregulariti/help_me_please_laba1/raw/master/forreadme/first.jpg)  
 
-#### P.S. авторитетное мнение
-![Image alt](https://github.com/Irregulariti/help_me_please_laba1/raw/master/forreadme/vsem_pohuy.png)
-
-*но если честно*
-![Image alt](https://github.com/Irregulariti/help_me_please_laba1/raw/master/forreadme/absolute.jpg)
 # А теперь к делу: 
 
 Машину тьюринга писать на сайте: https://turingmachine.io/
@@ -68,7 +63,7 @@ https://www.onlinegdb.com/online_python_interpreter
 
 "3: Снизу выбрать формат входных данных TEXT и вставить туда код машины"  
 
-"4: Не забудьте дописать:  "-1" в конце скрипта, а иначе попадёте в беск цикл"  
+"4: Не забудьте дописать:  "-1" в конце кода машины, а иначе попадёте в беск цикл"  
 
 "5: Enjoy"  
 
