@@ -10,7 +10,7 @@ if __name__ == '__main__':
     key, value = "", []
     while '-1' not in s.strip():
         if "#" in s.strip():
-            s = s[s.find("#") + 1:]
+            s = s[:s.find("#")]
         if 'table:' in s:
             ok = True
             s = input().rstrip()
@@ -102,7 +102,6 @@ if __name__ == '__main__':
                             text += "Машина находится в начальном состоянии " + start_state + ". "
                         else:
                             text += "Машина находится в состоянии " + start_state + ". "
-                        print(st_st)
                         for i in range(len(temp)):
                             k = temp[i]
                             cur_symbol = k[1].strip()
